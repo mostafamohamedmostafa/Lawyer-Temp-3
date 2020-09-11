@@ -149,9 +149,12 @@ body{
 .carousel-item i {
     color: white;
 }
+.carousel-item p   {
+    color:black !important;
+}
 
 .carousel-item p span {
-    color: gold;
+    color:white;
 
 }
 
@@ -361,11 +364,7 @@ body{
 
 }
 
-.team .card {
-
-    height: 75%;
  
-}
 
 .card {
     margin: 2%;
@@ -443,7 +442,9 @@ body{
     color: #2696be;
     font-size: 2rem;
 }
-
+.more-service-btn{
+    margin: 1%;
+}
 .serivces-box:hover {
     box-shadow: 5px 5px 15px 5px #000000;
     border-radius: 5%;
